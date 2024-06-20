@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início do Jogo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('pxsprite-dreamspace-lesschaos.gif') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 3em;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .button {
+            font-size: 64px;
+            font-weight: 500px;
+            text-decoration: none;
+
+            display: inline-block;
+            color: rgb(52, 253, 62);
+            padding: 16px 64px;
+            border: #20f94f 8px solid;
+            border-radius: 16px;
+
+            box-shadow: inset 0 0 32px 0 green, 0 0 32px 0 green;
+            text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px;
+            position: relative;
+
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Space Invaders</h1>
+        <a href="jogo/index.html" class="button">Iniciar</a>
+    </div>
+</body>
+</html>

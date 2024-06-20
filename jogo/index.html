@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Invaders</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>Space Invaders</header>
+  
+    <div class="game-wrapper">
+      <div class="game">
+        <div class="bot">
+          <button id="left1" onclick="movePlayer(-10)">⇦</button>
+          <button id="right2" onclick="movePlayer(10)">⇨</button>
+  
+        <button id="shoot-button">
+    <img id="i" src="img2/556202-removebg-preview.png" alt="">
+  </button>
+  </div>
+      </div>
+<br>
+<br>
+<br>
+    
+</div>
+      <div class="congratulations">
+        <h1>Parabéns!</h1>
+        <h2>Você ganhou o jogo!!</h2>
+        <button class="btn" onclick="window.location.reload()">Restart</button>
+      </div>
+      <div class="game-over">
+        <h1>GAME OVER POBRE MUHAHAHA</h1>
+        <h2>Você perdeu o jogo Humilhado MUHAHAHA</h2>
+        
+        <button class="btn" onclick="window.location.reload()">Reset</button>
+      </div>
+      
+    </div>
+    <footer>Teclas esquerda/direita para mover, barra de espaço para atirar presta atençao inimigo do dinheiro</footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
